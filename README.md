@@ -114,3 +114,110 @@ for(int i=1; i<=5; i++)
 }
 Addnumbers(10,20);// we get output as 30
 
+\\ interpolation//
+sing System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		string name="laxman";
+		int age=23;
+		Console.WriteLine($"my name is {name} and i am {age} years old");
+	}
+}
+		/// arthemetic operators///
+        using System;
+					
+public class Program
+{
+	public static void Main()
+	{ 
+		int a =10;
+		int b=4;
+		Console.WriteLine(a+b);
+		Console.WriteLine(a-b);
+		Console.WriteLine(a*b);
+		Console.WriteLine(a%b);
+		Console.WriteLine(a/b);
+	}
+}
+
+/// compression operators which says true or faalse ///
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{ 
+		int age =23;
+		Console.WriteLine(age ==23);
+		Console.WriteLine(age!=23);
+		Console.WriteLine(age >23);
+		Console.WriteLine(age<23);
+		Console.WriteLine(age>=23);
+	}
+
+  ///  logical operators////
+  and//
+  using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int age = 23;
+         bool hasId = true;
+
+        if (age >= 18 && hasId)
+{
+         Console.WriteLine("Allowed");
+}
+
+	}
+}
+
+\\or condition which helep to find either one value is true//
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int age = 23;
+         bool hasId = true;
+
+        if (age >= 18 || hasId)
+{
+         Console.WriteLine("Allowed");
+}
+
+	}
+}
+
+/// multiple conditions///in if else
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		int marks =50;
+		if(marks>=90)
+		{
+		Console.WriteLine("A");
+		}
+		else if(marks>=75)
+		{
+			Console.WriteLine("B");
+		}
+		else if(marks>=65)
+		{
+			Console.WriteLine("c");
+		}
+		else
+		{
+			Console.WriteLine("fail");
+		}
+	}
+}
